@@ -175,29 +175,12 @@ textarea {
   display: grid;
   place-items: center;
 }
-.visual-card {
-  width: min(100%, 360px);
-  aspect-ratio: 1 / 1;
+.hero__image {
+  width: min(100%, 560px);
   border-radius: 32px;
-  background: linear-gradient(180deg, rgba(111, 92, 255, 0.96), rgba(101, 95, 255, 0.72));
-  display: grid;
-  place-items: center;
-  position: relative;
-  overflow: hidden;
-}
-.visual-card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.35), transparent 32%),
-    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.16), transparent 35%);
-}
-.visual-card__icon {
-  position: relative;
-  z-index: 1;
-  font-size: 4.5rem;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 800;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+  display: block;
 }
 .section {
   padding: 3rem 0;
