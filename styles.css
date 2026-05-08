@@ -275,6 +275,12 @@ textarea {
   object-fit: cover;
   min-height: 220px;
 }
+.process-visual {
+  margin: 2rem 0;
+}
+.process-visual .portfolio-image {
+  border-radius: 24px;
+}
 .portfolio-caption {
   padding: 1rem 1.2rem 1.2rem;
 }
